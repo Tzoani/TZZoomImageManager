@@ -20,7 +20,9 @@ Pod::Spec.new do |s|
   s.description      = 'TZZoomImageManager is image manager for pan, pinch and double tap event. We have sigleton class for display management'
 
   s.homepage         = 'https://github.com/Tzoani/TZZoomImageManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'https://dl.dropboxusercontent.com/s/yzuu6pcfucbzqh6/iPad_PopOver.png',
+                       'https://dl.dropboxusercontent.com/s/jbk1xd4pw2m2czd/iPhone_Modal.png',
+                       'https://dl.dropboxusercontent.com/s/bunor887yg8gs45/iPhone_Push.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tzoani' => 'darksky_ddd@hotmail.com' }
   s.source           = { :git => 'https://github.com/Tzoani/TZZoomImageManager.git', :tag => s.version.to_s }
