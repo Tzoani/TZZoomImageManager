@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'TZZoomImageManager_Example' do
+  pod 'TZZoomImageManager', :path => '../'
+
+  target 'TZZoomImageManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
