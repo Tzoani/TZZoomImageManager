@@ -35,6 +35,7 @@ pod "TZZoomImageManager"
 ## Author
 
 Tzoani, darksky_ddd@hotmail.com
+Nizaii, lalida.jar@gmail.com
 
 ## License
 
