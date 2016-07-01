@@ -7,6 +7,7 @@
 //
 
 #import "TZViewController.h"
+#import <TZZoomImageManager/ZoomImageManager.h>
 
 @interface TZViewController ()
 
@@ -24,6 +25,20 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Action method
+
+- (IBAction)pressPushAction:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    
+    [[ZoomImageManager defadefaultManager] zoomWithImage:[UIImage imageNamed:@"photo"] onView:button inController:self isNavigation:YES];
+}
+
+- (IBAction)pressModalAction:(id)sender {
+    UIButton *button = (UIButton*)sender;
+    
+    [[ZoomImageManager defadefaultManager] zoomWithImage:[UIImage imageNamed:@"photo2"] onView:button inController:self isNavigation:NO];
 }
 
 @end

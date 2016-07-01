@@ -10,4 +10,7 @@
 
 @interface TZViewController : UIViewController
 
+- (IBAction)pressPushAction:(id)sender;
+- (IBAction)pressModalAction:(id)sender;
+
 @end

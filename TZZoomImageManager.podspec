@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TZZoomImageManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TZZoomImageManager.'
+  s.version          = '1.0.0'
+  s.summary          = 'TZZoomImageManager is image manager for pan, pinch and double tap event. The display suport iPhone and iPad'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'TZZoomImageManager is image manager for pan, pinch and double tap event. We have sigleton class for display management'
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/TZZoomImageManager'
+  s.homepage         = 'https://github.com/Tzoani/TZZoomImageManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tzoani' => 'darksky_ddd@hotmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/TZZoomImageManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/Tzoani/TZZoomImageManager.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
-
+  s.platform     = :ios, '9.0'
+  s.requires_arc = true
   s.source_files = 'TZZoomImageManager/Classes/**/*'
+  s.resources = 'TZZoomImageManager/Assets/**/*'
   
   # s.resource_bundles = {
   #   'TZZoomImageManager' => ['TZZoomImageManager/Assets/*.png']

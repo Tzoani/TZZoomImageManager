@@ -1,0 +1,6 @@
+framework module Pods_TZZoomImageManager_Example {
+  umbrella header "Pods-TZZoomImageManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
